@@ -10,7 +10,7 @@ export class CdkSimpleWebsiteTemplateStack extends cdk.Stack {
       domainNames: ["jfalco.net", "www.jfalco.net"],
       prefixForId: "JfalcoDotNet",
       hostedZoneId: "Z05061913FQYPH06UR3W",
-      terminationProtection: false,
+      terminationProtection: true,
       isSinglePageApplication: true,
     });
   }
